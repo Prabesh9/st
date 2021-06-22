@@ -1,48 +1,52 @@
+! ------------------------------------------------------------------------------
+! xterm standard arcolinux theme
+! ------------------------------------------------------------------------------
+! https://critical.ch/xterm/
+! ------------------------------------------------------------------------------
+
 xterm*selectToClipboard: true
-xterm*disallowedWindowOps: 20,21,SetXProp
-*.font:	Monospace:pixelsize=25:antialias=true:autohint=true;
-*.fontalt0:Braille:pixelsize=24:antialias=true:autohint=true;
+/* xterm*disallowedWindowOps: 20,21,SetXProp */
+*.font:	Mono:pixelsize=12:antialias=true:autohint=true;
+/* *.fontalt0:Braille:pixelsize=14:antialias=true:autohint=true; */
 /* *.fontalt1:JoyPixels:pixelsize=24:antialias=true:autohint=true; */
-*.alpha: 0.95
+*.alpha: 0.97
 
 ! colors
 
 ! special
-*.foreground:   #B8BEC9
-*.background:   #232731
+*.background:   #1c1c1c
+*.foreground:   #dedbeb
 *.cursorColor:  #ECEFF4
 *.revCursorColor:  #555555
 
 ! black
-*.color0:       #4C566A
-*.color8:       #6C768A
+*.color0:       #28222d
+*.color8:       #28222d
 
 ! red
-*.color1:       #BF616A
-*.color9:       #af7370
+*.color1:       #fb5c8e
+*.color9:       #fb5c8e
 
 ! green
-*.color2:       #A3BE8C
-*.color10:      #B5CEA8
+*.color2:       #a2baa8
+*.color10:      #a2baa8
 
 ! yellow
-*.color3:       #D7BA7D
-*.color11:      #E7cb93
+*.color3:       #eacac0
+*.color11:      #eacac0
 
 ! blue
-*.color4:       #5e81ac
-*.color12:      #69A8C6
+*.color4:       #b4a4de
+*.color12:      #b4a4de
 
 ! magenta
-*.color5:       #B48EAD
-*.color13:      #939ede
+*.color5:       #edabd2
+*.color13:      #edabd2
 
 ! cyan
-*.color6:       #88c0d0
-*.color14:      #69BAC8
+*.color6:       #aabae7
+*.color14:      #aabae7
 
 ! white
-*.color7:       #ABB2BF
-*.color15:      #D8DEE9
-
-
+*.color7:       #dedbeb
+*.color15:      #dedbeb
