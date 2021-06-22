@@ -5,7 +5,7 @@ st is a simple terminal emulator for X which sucks less.
 ## Install
 
 ```
-git clone https://github.com/ChristianChiarulli/st.git
+git clone https://github.com/Prabesh9/st.git
 cd st
 sudo make clean install
 ```
